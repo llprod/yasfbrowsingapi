@@ -1,0 +1,23 @@
+{
+  "name": "llprod/yasfbrowsingapi",
+  "version": "0.0.1",
+  "description": "Yandex SafeBrowsing API simple implementation",
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "YaSfBrowsing\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shorin Kirill",
+      "email": "kirill@llprod.ru"
+    }
+  ],
+  "keywords":["yandex","safebrowsing"],
+  "type":"library"
+}
