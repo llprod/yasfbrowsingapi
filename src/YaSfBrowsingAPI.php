@@ -1,8 +1,5 @@
 <?php
-
 namespace YaSfBrowsing;
-
-require dirname(__DIR__) .'/vendor/autoload.php';
 
 Class YaSfBrowsingAPI
 {
