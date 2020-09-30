@@ -1,8 +1,8 @@
-#PHP библиотека для работы с Safe Browsing API Яндекса
+# PHP библиотека для работы с Safe Browsing API Яндекса
 
 ___
 
-##Установка
+## Установка
 
 `$ curl -s https://getcomposer.org/installer | php`
 
@@ -16,7 +16,7 @@ ___
 }
 ```
 
-##Использование
+## Использование
 
 `require dirname(__DIR__) .'/vendor/autoload.php';`
 
