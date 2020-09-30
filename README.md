@@ -23,7 +23,7 @@ ___
 ```php
 require 'vendor/autoload.php';
 
-// Ключ, полученный на http://safe.yandex.ru/keys/
+// Ключ, полученный на https://developer.tech.yandex.ru
 $SfBrowsing = new YaSfBrowsing\YaSfBrowsingAPI('aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa');
 
 // URL, который вы хотите проверить
