@@ -14,12 +14,6 @@ Class YaSfBrowsingAPI
         $this->apiKey = $apiKey;
     }
 
-
-    /**
-     * @param string $url
-     * @return Match|null
-     * @throws \GuzzleHttp\Exception\GuzzleException
-     */
     public function find(string $url): ?Match
     {
         $client = new \GuzzleHttp\Client(['base_uri' => self::API_BASE]);
@@ -55,5 +49,15 @@ Class YaSfBrowsingAPI
         }
 
         return null;
+    }
+
+    /**
+     * Undocumented, but still working API method
+     */
+    public function adult($url): bool {
+        $client = new \GuzzleHttp\Client(['base_uri' => self::API_BASE]);
+        $response = $client->request('GET', 'cp?client=api&pver=4.0&url='.$url);
+
+        return (string)$response->getBody() == 'adult';
     }
 }

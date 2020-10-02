@@ -1,6 +1,6 @@
 {
   "name": "llprod/yasfbrowsingapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yandex SafeBrowsing API simple implementation",
   "require": {
     "php": "^7.1",
